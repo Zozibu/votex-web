@@ -77,17 +77,65 @@ a{
   text-align:center;
   text-shadow:0 2px 3px rgba(0,0,0,0.2)
 }
-.author{
+.authord{
   margin-right: 70px;
   display:inline-block;
   width:50px;
   height:50px;
   border-radius:50%;
-  background:url(https://i.imgur.com/qGIQSGW_d.webp?maxwidth=760&fidelity=grand) center no-repeat;
+  background:url(https://cdn2.steamgriddb.com/icon_thumb/45961dd50e46379442318098474e0ced.png) center no-repeat;
+  background-size:cover;
+  box-shadow:0 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:3px
+} 
+
+.authort{
+  margin-right: 70px;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:url(https://static-00.iconduck.com/assets.00/tik-tok-icon-256x256-pqlbgian.png) center no-repeat;
+  background-size:cover;
+  box-shadow:0 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:3px
+} 
+
+.authory{
+  margin-right: 70px;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:url(https://cdn.iconscout.com/icon/free/png-256/free-youtube-225-461845.png?f=webp) center no-repeat;
+  background-size:cover;
+  box-shadow:0 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:3px
+} 
+.authori{
+  margin-right: 70px;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:url(https://cdn.iconscout.com/icon/free/png-256/free-instagram-8289863-7136518.png?f=webp) center no-repeat;
+  background-size:cover;
+  box-shadow:0 2px 3px rgba(0,0,0,0.3);
+  margin-bottom:3px
+} 
+
+.authorg{
+  margin-right: 70px;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  background:url(https://cdn.iconscout.com/icon/free/png-256/free-gmail-2296066-1912025.png?f=webp) center no-repeat;
   background-size:cover;
   box-shadow:0 2px 3px rgba(0,0,0,0.3);
   margin-bottom:3px
 }
+
 .info h4, .meta{
   font-size:0.7em
 }
@@ -97,9 +145,11 @@ a{
   50% { transform: scale(1.2) translateY(-400px)}
 }
 .content{  
+  font-style: italic;
   padding:5% 10%;
   text-align:justify
 }
+
 .btn{
   color:#333;
   border:2px solid;
@@ -207,3 +257,102 @@ body {
 .infomarg2{
   margin-bottom: 95px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+.status-badge {
+	width: fit-content;
+	margin: 1rem auto;
+	border-radius: 10px;
+	padding: 0 .5rem;
+}
+
+#onlineBadge {
+	color: #333;
+	background-color: #0fd112;
+}
+
+#offlineBadge {
+	color: #f1f1f1;
+	background-color: #c9190c;
+}
+
+.server-name {
+	font-weight: 700;
+	font-size: 2rem;
+	margin-bottom: 2rem;
+}
+
+.info-title {
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.info-title svg {
+	width: 1em;
+	fill: #4799eb;
+	margin-right: .5em;
+}
+
+.info-data {
+	font-size: 5rem;
+	font-weight: 700;
+}
+
+.info-connect {
+	width: fit-content;
+	font-size: .9rem;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	cursor: pointer;
+	transition: color .2s;
+	margin: 1rem auto;
+}
+
+.info-connect svg {
+	width: .9em;
+	fill: #f1f1f1;
+	margin-right: .2em;
+	transition: fill .2s;
+}
+
+.info-connect:hover {
+	color: #4799eb;
+}
+
+.info-connect:hover svg {
+	fill: #4799eb;
+}
+
+.git {
+	font-size: .8rem;
+
+	position: absolute;
+	bottom: 10px;
+	width: 80rem;
+}
+
+.git a {
+	text-decoration: none;
+	color: #888;
+	transition: color .2s;
+}
+
+.git a:hover {
+	color: #4799eb;
+}
+
+.containerr {
+    width: fit-content;
+    max-width: 80rem;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    padding-left: 31%;
+}
+

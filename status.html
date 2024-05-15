@@ -1,16 +1,41 @@
-<head>
-    <title>Vortex RP - Státusz</title>
-	<link rel="stylesheet" type="text/css" href="css/stat.css">
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Szerver-Státusz</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script
 		src="https://code.jquery.com/jquery-3.6.0.min.js"
 		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
 		crossorigin="anonymous"></script>
 	<script type="text/javascript" src="js/stat.js" defer></script>
-
-</head>
+    </head>
+	<header>
+        <div class="header">
+          <div class="sides">
+            <script src="js/mod.js"></script>
+            <button onclick="dropFunction()" class="dropbtn">Szabályok</button> <a href="job.html" class="dropbtn">Munkák</a> <a href="update.html" class="dropbtn">Update</a> <a href="index.html" class="dropbtn">Főoldal</a>
+            <div id="Dropdown" class="dropdown-content">
+                <a href="szero-szab.html">Szerver-Szabályzat</a>
+                <a href="dc-szab.html">Discord-Szabályzat</a>
+              </div>
+            </div>
+            <div class="info">
+              <h3 class="infomarg" ><a >Vortex Roleplay Hungary</a></h3>
+                <h1 class="infomarg2">AHHOL MINDEN ÁLMODAT VALÓRA VÁLTHATOD</h1> 
+                <div class="meta">
+                  <a href="https://discord.gg/GmyhMfmBAw" target="_b" class="authord"></a>  <a href="#" target="_b" class="authort"></a>  <a href="#" target="_b" class="authory"></a> <a href="#" target="_b" class="authori"></a> <a href="#" target="_b" class="authorg"></a> <br>              
+                </div>
+              </div>
+            </div>
+      </header>
+    <body>
+        
+    </body>
+</html>
 
 <body>
-	<div class="container">
+	<div class="containerr">
+    <br> <br>
 		<div class="status-badge" id="offlineBadge">Offline</div>
 		<div class="status-badge" style="display: none;" id="onlineBadge">Online</div>
 		<div class="server-name" id="serverName">
@@ -19,6 +44,6 @@
 		<div>
 			<div class="info-data" id="onlinePlayers">Unknown</div>
 			<div class="info-connect" id="directConnect" style="display: none;">
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M0 256C0 167.6 71.63 96 160 96H256C273.7 96 288 110.3 288 128C288 145.7 273.7 160 256 160H160C106.1 160 64 202.1 64 256C64 309 106.1 352 160 352H256C273.7 352 288 366.3 288 384C288 401.7 273.7 416 256 416H160C71.63 416 0 344.4 0 256zM480 416H384C366.3 416 352 401.7 352 384C352 366.3 366.3 352 384 352H480C533 352 576 309 576 256C576 202.1 533 160 480 160H384C366.3 160 352 145.7 352 128C352 110.3 366.3 96 384 96H480C568.4 96 640 167.6 640 256C640 344.4 568.4 416 480 416zM416 224C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H224C206.3 288 192 273.7 192 256C192 238.3 206.3 224 224 224H416z"/></svg> Csatlakozás a szerverre!</div>
+				<svg xmlns="cfx.re/join/kd39jv" viewBox="0 0 640 512"><path d="M0 256C0 167.6 71.63 96 160 96H256C273.7 96 288 110.3 288 128C288 145.7 273.7 160 256 160H160C106.1 160 64 202.1 64 256C64 309 106.1 352 160 352H256C273.7 352 288 366.3 288 384C288 401.7 273.7 416 256 416H160C71.63 416 0 344.4 0 256zM480 416H384C366.3 416 352 401.7 352 384C352 366.3 366.3 352 384 352H480C533 352 576 309 576 256C576 202.1 533 160 480 160H384C366.3 160 352 145.7 352 128C352 110.3 366.3 96 384 96H480C568.4 96 640 167.6 640 256C640 344.4 568.4 416 480 416zM416 224C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H224C206.3 288 192 273.7 192 256C192 238.3 206.3 224 224 224H416z"/></svg> Csatlakozás a szerverre!</div>
 		</div>
 	</div>
